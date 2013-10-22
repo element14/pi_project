@@ -6,18 +6,20 @@
 # Version:      1.0
 # Release Date: 1st November, 2013
 #
-#Description:   This simple Python3 program is used to check that the external
+# Description:  This simple Python3 program is used to check that the external
 #               and onboard (to the PiFace boards) switches are correctly configured.
-#               the sequence of tests is:");
+#               the sequence of tests is:
+#
 #               1) A request will be made to press each of the onboard switches;
 #               2) A request will be made to press each of the external switches.
 #
-#               If you do not press the switch OR the PiFace Digital board is not");
-#               present then the test will proceed to the next switch.  One of three");
-#               reports will be printed:");
-#               1) The button was pressed;");
-#               2) A timeout occurred;");
-#               3) No PiFace Digital Board is not present.").
+#               If you do not press the switch OR the PiFace Digital board is not
+#               present then the test will proceed to the next switch.  One of three
+#               reports will be printed:
+#
+#               1) The button was pressed;
+#               2) A timeout occurred;
+#               3) No PiFace Digital Board is not present.
 #
 #               The code shows how to construct the wait until a switch is pressed OR
 #               until a predefined timeout period has expired.
