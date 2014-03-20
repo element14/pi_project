@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- ============================================================== -->
+<!--																-->
+<!-- Authors:      Jennifer Smythe (Dunelm Services Limited)		-->
+<!-- Version:      1.0												-->
+<!-- Release Date: 20th March, 2014									-->
+<!--																-->
+<!-- Description:  The Gertboard HTML test page.  This enables the  -->
+<!--			   user to drive the associated LED, Potentiometer 	-->
+<!--			   and buttons tests via a web browser/internet		-->
+<!--			   based interface.									-->
+<!--																-->
+<!-- History:      Original release.								-->
+<!--																-->
+<!-- Copyright:    2013 (c) Premier Farnell Limited					-->
+<!--																-->
+<!-- License:      GPLv3+											-->
+<!--																-->
+<!-- ============================================================== -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gertboard Test Program</title>
+<meta name="language" content="en-US" />
+<meta name="author" content="Jennifer Smythe (Dunelm Services)" />
+<meta name="date" content="20th March 2014" />
+<meta name="status" content="Final" />
+<meta name="version" content="1.0.0" />
+<meta name="publisher" content="Pemier Farnell" />
+<meta name="history" content="The first release." />
+<style type="text/css">
+body,td,th {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+</style>
+</head>
+
+<body>
+<h1>Gertboard Test Page</h1>
+<p>Press one of the buttons below to start the corresponding test.</p>
+
+<table width="700" border="1">
+  <tr>
+    <td><div align="center">&nbsp;<a href="/cgi-bin/Ledtestv1p0p0.py"><img src="LEDTestButton.png" width="155" height="89" alt="LED Test Button"/></a></div></td>
+    <td><div align="center">&nbsp;<a href="/cgi-bin/Buttontestv1p0p0.py"><img src="ButtonTestButton.png" width="155" height="89" alt="Button Test Button"/></a></div></td>
+    <td><div align="center">&nbsp;<a href="/cgi-bin/Pottestv10p0.py"><img src="PotTestButton.png" width="155" height="89" alt="Potentiometer Test Button"/></a> </div></td>
+  </tr>
+  <tr>
+    <td><div align="center">&nbsp;Run LED Test Sequences</div></td>
+    <td><div align="center">&nbsp;Press up to 10 buttons in 10 seconds</div></td>
+    <td><div align="center">&nbsp;Potentiometer Test</div></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
