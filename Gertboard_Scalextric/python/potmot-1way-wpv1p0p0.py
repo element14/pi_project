@@ -1,16 +1,32 @@
 #!/usr/bin/python2.7
-# Python 2.7 version by Alex Eames of http://RasPi.TV 
-# functionally equivalent to the Gertboard potmot test by 
-# Gert Jan van Loo & Myra VanInwegen
-# Use at your own risk - I'm pretty sure the code is harmless, but you are
-# responsible for checking  it yourself.
-# This will not work unless you have installed py-spidev and wiringpi for Python
-# as described in the README.txt file. SPI must also be enabled on your system
 
-# This is a simplified combination of the atod.py and motor-wp.py programs.
-# The potentiometer position (read by the ADC) determines 
-# motor direction and speed (PWM value)
-# Middle value = no movement. 1023 = Max one way, 0 = Max the other way.
+#==============================================================
+#
+# Authors:      Christine Smythe (Dunelm Services Limited)
+# Version:      1.0
+# Release Date: 15th April 2014
+#
+# Description:	This Python program is used to enable the speed of a Scalextric car to be
+#				varied using a potentiometer. This program is a modification of the 
+# 				Python 2.7 software  by Alex Eames of http://RasPi.TV and functionally 
+# 				equivalent to the Gertboard potmot test by Gert Jan van Loo & Myra VanInwegen
+# 				Use at your own risk - I'm pretty sure the code is harmless, but you are
+# 				responsible for checking it yourself.
+#
+# 				This will not work unless you have installed py-spidev and wiringpi for Python
+# 				as described in the README.txt file. SPI must also be enabled on your system
+# 				This is a simplified combination of the atod.py and motor-wp.py programs.
+# 				The potentiometer position (read by the ADC) determines 
+# 				motor direction and speed (PWM value)
+# 				Middle value = no movement. 1023 = Max one way, 0 = Max the other way.
+#
+# History:      Original release.
+#
+# Copyright:    2014 (c) Premier Farnell Limited
+#
+# License:      GPLv3+
+#
+#==============================================================#
 
 from __future__ import print_function       
 from time import sleep

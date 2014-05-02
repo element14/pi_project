@@ -1,6 +1,21 @@
 #!/usr/bin/python2.7
 
-# this program controls the motor of a scalextric
+#==============================================================
+#
+# Authors:      Christine Smythe (Dunelm Services Limited)
+# Version:      1.0
+# Release Date: 15th April 2014
+#
+# Description:	This Python program is used to enable the speed of a Scalextric car to be
+#				varied using the 'f' and 's' keys on the R-Pi keyboard.
+#
+# History:      Original release.
+#
+# Copyright:    2014 (c) Premier Farnell Limited
+#
+# License:      GPLv3+
+#
+#==============================================================#
 
 from __future__ import print_function       
 from time import sleep
